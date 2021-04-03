@@ -30,7 +30,7 @@ function getSecmax(randomArray)
         randomArray[j]=temp;    
        }
    }
-   console.log("the 2nd max value is " +randomArray[randomArray.length-2]+ " and minimum value is "+randomArray[randomArray.length+2]);
+   console.log("the 2nd max value is " +randomArray[randomArray.length-2]+ " and minimum value is "+randomArray[2]);
 }
 
 function getSecmin(randomArray)
